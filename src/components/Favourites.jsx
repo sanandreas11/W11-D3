@@ -43,7 +43,9 @@ const Favourites = () => {
       ))}
       <Row>
         <Col className="mt-3">
-          <Link to="/">Torna alla home</Link>
+          <Link className="fs-2" to="/">
+            Torna alla home
+          </Link>
         </Col>
       </Row>
     </>
