@@ -1,6 +1,7 @@
 import { Row, Col, Button } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import { useDispatch } from "react-redux"
+import { addToFavesAction } from "../redux/actions"
 
 const Job = ({ data }) => {
   const dispatch = useDispatch()
@@ -22,10 +23,7 @@ const Job = ({ data }) => {
         <Button
           variant="primary"
           onClick={() => {
-            dispatch({
-              type: "ADD_TO_FAVES",
-              payload: data,
-            })
+            dispatch(addToFavesAction(data))
           }}
         >
           Aggiungi ai preferiti
