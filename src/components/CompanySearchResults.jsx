@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import Job from "./Job"
-import { Link, useParams } from "react-router-dom"
+import { useParams } from "react-router-dom"
 
 const CompanySearchResults = () => {
   const [jobs, setJobs] = useState([])

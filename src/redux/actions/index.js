@@ -1,6 +1,5 @@
 export const ADD_TO_FAVES = "ADD_TO_FAVES"
 export const REMOVE_FROM_FAVES = "REMOVE_FROM_FAVES"
-export const SET_USERNAME = "SET_USERNAME"
 export const FETCH_JOBS = "FETCH_JOBS"
 export const FETCH_JOBS_ERROR = "FETCH_JOBS_ERROR"
 export { useParams } from "react-router"
